@@ -1,3 +1,11 @@
+This is simple chat application. React + Redux + Redux-saga + websockets.
+
+clone app to your local computer and folow this steps:
+
+1) open terminal and go to projects folder.
+2) make --> yarn
+3) to start the app ---> yarn start
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
