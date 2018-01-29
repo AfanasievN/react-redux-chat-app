@@ -1,0 +1,24 @@
+{
+  "name": "chatapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chance": "^1.0.13",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.1.0",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0",
+    "ws": "^4.0.0"
+  },
+  "scripts": {
+    "start": "start yarn react-run && start yarn sockets",
+    "react-run": "react-scripts start",
+    "sockets": "node ./server/app.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
